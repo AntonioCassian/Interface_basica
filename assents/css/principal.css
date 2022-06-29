@@ -1,0 +1,97 @@
+body{
+    background: #000;
+}
+.principalLogo{
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+    margin: 0 60px 0 0;
+}
+.principalLogo_img{
+
+}
+.principalLogo_img> a > img{
+    width: 200px;
+}
+.lista{
+    display: flex;
+    align-items: center;
+}
+.listaItem{
+    padding-left: 50px;
+}
+.listaItem > a {
+    text-decoration: none;
+    color: #fff;
+}
+.sair{
+    display: flex;
+    align-items: center;
+}
+
+
+.filmePrincipal{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../imagens/capa1.jpeg');
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+}
+.containerPrincipal{
+    margin: 0 70px;
+}
+.titulo{
+    font-size: 27px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.descricao{
+    text-align: initial;
+    color: #fff;
+    margin-right: 700px;
+    line-height: 25px;
+}
+.botoes{
+    display: flex;
+    margin-top: 20px;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.title{
+    color: #fff;
+    font-size: 35px;
+}
+
+/*/CARROSEL
+.carrossel{
+    box-shadow: 2px 2px 4px pink;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: traslateX(0);
+}
+img{
+    object-fit: cover;
+    
+}*/

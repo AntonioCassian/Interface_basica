@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assents/css/reset.css">
+    <link rel="stylesheet" href="./assents/css/responsive.css">
+    <link rel="stylesheet" href="./assents/css/main.css">
+    <title>Filmes - entre ou cadastre</title>
+
+</head>
+
+<body>
+    <div id="modal-cadastro" class="modal-container">
+        <div class="modal">
+            <div class="modalHead">
+                <h1 class="motalHEad_title">Cadastre-se</h1>
+
+                <button class="close-modal" id="cd-fecha-modal">
+                    X
+                </button>
+            </div>
+            <div class="modalBody">
+                <div class="modalBody_text">
+                    <p class="text_cadastro"> É rápido e fácil.</p>
+                </div>
+            </div>
+            <div class="cadastro">
+                <div class="cadastro_complet">
+                    <form name="forCad" action="" class="form_cadastro">
+                        <div class="form_cadastro_input">
+                            <input type="text" name="Nome" class="border" placeholder="Nome">
+
+                            <input type="text" name="Sobrenome" class="border" placeholder="Sobrenome">
+                        </div>
+                        <div class="cad-Email" id="emailCadas">
+                            <input type="email" name="Email" class="border_cadastro TwoBord" id="emailCad"
+                                placeholder="Email">
+                            <span>
+
+                            </span>
+                        </div>
+                        <div class="" id="pai-senha">
+                            <input type="password" name="Senha" id="senhaCad" class="border_cadastro TwoBord"
+                                placeholder="Senha">
+                            <span></span>
+                        </div>
+                        <div class="">
+                            <input type="password" name="IdSenha" id="confirmCad" class="border_cadastro TwoBord"
+                                placeholder="Confirmar Senha">
+                            <span>
+
+                            </span>
+                        </div>
+
+                </div>
+                <div class="button_cadastro">
+                    <button class="btn" onclick="valid()">Enviar</button>
+                </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="principal">
+            <div class="sombra">
+                <div class="text">
+                    <img src="./assents/imagens/logo.png" alt="" class="img">
+                    <h2>
+                        Confira os novos filmes que estão em alta, com apenas um login ou faça seu cadastro no
+                        FilmeFlix.
+                    </h2>
+                </div>
+                <div class="formulario">
+                    <form action="./pages/principal.html" method="GET" class="form">
+                        <div class="formPrincipal">
+                            <div class="email">
+                                <input type="email" name="email" required id="email" class="border" placeholder="Email">
+                            </div>
+
+                            <div>
+                                <input type="password" name="password" required id="password" placeholder="Senha">
+                            </div>
+                        </div>
+                        <div class="buttonOne">
+                            <button id="enviar">
+                                Entrar
+                            </button>
+                            <a href="#">
+                                esqueceu a senha?</a>
+                        </div>
+                        <div class="linha">
+
+                        </div>
+                        <div class="buttonTwo">
+                            <input type="button" value="Criar Conta" class="but">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./assents/script/main.js"></script>
+
+    <!-- <script>
+          var senhaCad = document.getElementById('senhaCad');
+          var senhaConfirm = document.getElementById('confirmCad');
+          var wrapperSenha = document.getElementById('pai-senha');
+            
+          function valid(){
+              var senha = senhaCad.value;
+              var confirmar = confirmCad.value;
+
+              if(senha === '' || confirmar.length <= 5){
+                wrapperSenha.querySelector('span').classList.add('error');
+                wrapperSenha.querySelector('span').innerText ='Preencha o campo com uma senha com mais de 5 caracteres!';
+                senhaCad.Senha.focus();
+                return false;
+                }
+            }
+        </script>-->
+</body>
+</body>
+
+</html>

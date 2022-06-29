@@ -1,0 +1,96 @@
+@media screen and (min-width: 320px){
+    .sombra{
+        display: block;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+    .text h2{
+        width: 100%;
+    }
+    .formulario{
+        display: flex;
+        justify-content: center;
+    }
+    .form{
+        width: 250px;
+        align-items: center;
+    }
+    #email , .border{
+        width: 88%;
+    }
+    #password {
+        width: 88%;
+    }
+    .buttonOne > button{
+        width: 80%;
+    }
+    .buttonTwo > input{
+        width: 90%;
+    }
+    .modalHead > h1{
+        padding: 17px;
+    }
+
+    .border, .border_cadastro {
+        width: 83%;
+    }
+
+}
+
+@media screen and (min-width: 576px){
+    
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+@media screen and (min-width: 992px){
+    .sombra {
+        display: flex;
+        justify-content: space-around;
+    }
+    .text{
+        width: 260px;
+        text-align: center;
+    }
+    .text > h2{
+        width: 540px;
+    }
+    .border{
+        width: 240px;
+    }
+}
+
+@media screen and (min-width: 1115px){
+   .border{
+       width: 240px;
+   }
+}
+@media screen and (min-width: 1364px){
+    
+}
+
+@media screen and (min-width: 1600px){
+    
+}
+/*@media( max-width: 600px)  {
+    .sombra{
+        display: block;
+    }
+    .text{
+        width: 100%;
+    }
+    .text img{
+        width: 100%;
+    }
+    .text h2{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        align-items: center;
+    }
+}*/
